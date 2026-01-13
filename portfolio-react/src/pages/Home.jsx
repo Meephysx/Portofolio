@@ -37,7 +37,7 @@ const Home = () => {
               {t.home.btn_project}
             </Link>
             <a
-              href="/cv_aldi.pdf"
+              href="/cv_aldiansyah.pdf"
               download
               className="px-8 py-3 bg-transparent border-2 border-teal-600 text-teal-400 hover:bg-teal-600/10 rounded-full font-bold transition-transform hover:scale-105 text-center inline-block"
             >
