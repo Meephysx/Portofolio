@@ -3,7 +3,7 @@ import { GlobalProvider } from './context/GlobalContext';
 
 import Navbar from './components/navbar'; // Pastikan huruf besar/kecil sesuai nama filemu
 import Footer from './components/Footer';
-import Home from './pages/home';
+import Home from './pages/Home';
 import About from './pages/About';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
