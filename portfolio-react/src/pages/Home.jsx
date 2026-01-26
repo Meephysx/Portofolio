@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 // Menggunakan foto lokal kamu
 import profileImg from '../assets/gw.jpg'; 
 // Menggunakan motion/react sesuai setup kamu
@@ -33,13 +32,13 @@ const Home = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
-            <Link to="/projects" className="px-8 py-3 bg-teal-600 hover:bg-teal-700 text-white rounded-full font-bold transition-transform hover:scale-105">
+            <a href="#projects" className="px-8 py-3 bg-teal-600 hover:bg-teal-700 text-white rounded-full font-bold transition-transform hover:scale-105">
               {t.home.btn_project}
-            </Link>
+            </a>
             <a
               href="/cv_aldiansyah.pdf"
               download
-              className="px-8 py-3 bg-transparent border-2 border-teal-600 text-teal-400 hover:bg-teal-600/10 rounded-full font-bold transition-transform hover:scale-105 text-center inline-block"
+              className="px-8 py-3 bg-teal-600 hover:bg-teal-700 text-white rounded-full font-bold transition-transform hover:scale-105 text-center"
             >
               {t.home.btn_cv}
             </a>
